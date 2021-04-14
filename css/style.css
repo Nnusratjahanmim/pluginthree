@@ -1,0 +1,21 @@
+.picker {
+			border-radius: 5px;
+			width: 36px;
+			height: 36px;
+			cursor: pointer;
+			-webkit-transition: all linear .2s;
+			-moz-transition: all linear .2s;
+			-ms-transition: all linear .2s;
+			-o-transition: all linear .2s;
+			transition: all linear .2s;
+			border: thin solid #eee;
+		}
+		.picker:hover {
+			transform: scale(1.1);
+		}
+
+
+html,* { margin: 0; padding: 0; }
+  body {  }
+  .example { position: absolute; top: 0; left: 0; height: 300px; width: 100%; }
+  h1 { margin: 340px auto 50px auto; text-align: center; }		
